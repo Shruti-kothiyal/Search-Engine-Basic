@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>QUESTS</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+<body>
+
+	<div class="container">
+		<div class="jumbotron">
+			<div style="font-family:cursive;">
+				<p>
+					<center>
+						<font size="8"><span>QUESTS<span></font>
+					</center>
+				</p>
+			</div>
+		</div>
+	<form action="/search/results" method="post">
+    <div class="input-group">
+		<center>
+      <input type="text" class="form-control input-lg" name="input" placeholder="Search" size="50"  autofocus>
+	  </center>
+      <div class="input-group-btn">
+		<p><center>
+        <button class="btn" type="submit">
+         Search
+        </button>
+		</center> </p>
+      </div>
+    </div>
+  </form>
+
+  <center>
+      <h1>No results found :(</h1>
+  </center>
+
+
+      </div>
+    </div>
+  </body>
+</html>
+
